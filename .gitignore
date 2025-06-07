@@ -1,0 +1,77 @@
+
+---
+
+### 🛡️ `.gitignore`
+
+```gitignore
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsp
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.swp
+*~
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+
+# Build output
+*.dll
+*.exe
+*.app
+*.msi
+*.nupkg
+TestResult*/ 
+TestResults/
+*.Coverage
+
+# ASP.NET
+appsettings.*.json
+
+# dotCover
+.idea/.dotCover
+
+# Logs
+*.log
+
+# Others
+_ReSharper*/
+*.orig
+*.bak
+
+# Global JetBrains
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Entity Framework
+*.Designer.cs
+*.edmx.sql
+*.edmx.diagram
+
+# Rider Cache
+.idea/
+
+# VS 2022
+.vs/
